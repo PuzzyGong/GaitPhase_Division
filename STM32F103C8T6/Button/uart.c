@@ -147,7 +147,7 @@ void uart_singletrans(int i)
 {
     i--;
 	
-	if(DMA_GetCurrDataCounter(T_DMA_Channel_x[i])) while(1);
+	//if(DMA_GetCurrDataCounter(T_DMA_Channel_x[i])) while(1);
     DMA_Cmd(T_DMA_Channel_x[i], DISABLE);
 	DMA_SetCurrDataCounter( T_DMA_Channel_x[i], tx_lens[i] ); 
     DMA_Cmd(T_DMA_Channel_x[i], ENABLE);

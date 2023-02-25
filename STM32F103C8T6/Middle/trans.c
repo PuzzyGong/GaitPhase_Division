@@ -107,7 +107,7 @@ int trans_bt_R( int i,
 	{
 		if(c1 != 0) *c1 = trans_bt_Rbuff[i - 1].c1;
 		if(c2 != 0) *c2 = trans_bt_Rbuff[i - 1].c2;
-		if(c3 != 0) *c2 = trans_bt_Rbuff[i - 1].c3;
+		if(c3 != 0) *c3 = trans_bt_Rbuff[i - 1].c3;
 		if(f1 != 0) *f1 = trans_bt_Rbuff[i - 1].f1;
 		if(f2 != 0) *f2 = trans_bt_Rbuff[i - 1].f2;
 		if(f3 != 0) *f3 = trans_bt_Rbuff[i - 1].f3;
